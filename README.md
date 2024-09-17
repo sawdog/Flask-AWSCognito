@@ -49,3 +49,8 @@ if __name__ == '__main__':
     app.run(debug=True)
 
 ```
+
+## To run tests
+1. `pip install setuptools`
+2. `pip install '.[tests]'`
+3. `pytest`
