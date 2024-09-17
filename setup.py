@@ -28,7 +28,7 @@ setup(
     include_package_data=True,
     platforms="any",
     install_requires=["Flask", "python-jose", "requests"],
-    tests_require=[tests_require],
+    tests_require=tests_require,
     extras_require={"tests": tests_require},
     python_requires=">=3.6",
     classifiers=[
